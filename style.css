@@ -1,0 +1,13 @@
+#container {
+	width: 660px;
+	background-color: #ccc;
+	display: grid;
+	grid-template-rows: repeat(16, 30px); 
+	grid-template-columns: repeat(16, 30px); 
+	grid-gap: 2px;
+}
+
+.divs {
+	background-color: grey;
+}
+
