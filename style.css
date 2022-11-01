@@ -1,13 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
 #container {
-	width: 660px;
+	width: 600px;
+	height: 600px;
 	background-color: #ccc;
 	display: grid;
-	grid-template-rows: repeat(16, 30px); 
-	grid-template-columns: repeat(16, 30px); 
 	grid-gap: 2px;
+	grid-template-columns: repeat(16, 35.5px);
+	grid-template-columns: repeat(16, 35.5px);
 }
 
 .divs {
 	background-color: grey;
 }
 
+#btn {
+	margin-bottom: 30px;
+}
