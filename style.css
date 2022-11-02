@@ -1,10 +1,16 @@
 * {
 	box-sizing: border-box;
+	text-align: center;
+}
+
+body {
+	background-color: rgba(0, 7, 10, 0.76);;
 }
 
 #container {
 	width: 600px;
 	height: 600px;
+	margin: 0 auto;
 	background-color: #ccc;
 	display: grid;
 	grid-gap: 2px;
@@ -12,10 +18,26 @@
 	grid-template-columns: repeat(16, 35.5px);
 }
 
+.slider-container {
+	width: 100%;
+}
+
+.slider-range {
+	width: 25%;
+}
+
 .divs {
 	background-color: grey;
 }
 
-#btn {
+#slider {
 	margin-bottom: 30px;
+}
+
+.current-value {
+	font-size: 2rem;
+	margin-left: 1rem;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 50% 
 }
